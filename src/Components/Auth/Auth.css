@@ -1,0 +1,31 @@
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("https://res.cloudinary.com/dkajxnnlq/image/upload/v1725453497/kudos-neon-text-on-stone-260nw-2036876726_gpfet2.webp");
+  background-size: cover;
+  justify-content: center;
+  padding: 20px;
+  filter: brightness(0.8); /* Adjust the value as needed */
+}
+
+
+.auth-navigation {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+
+  gap: 150px;
+
+  margin-bottom: 30px;
+}
+
+.auth-div-container{
+  display:flex;
+  justify-content:center;
+  align-items:Center;
+  flex-direction:column;
+}

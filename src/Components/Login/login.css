@@ -1,0 +1,16 @@
+.loginFormContainer{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:"Roboto";
+}
+.auth-form {
+    width:50%;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    height:300px;
+
+}

@@ -1,0 +1,68 @@
+.give-kudos-container {
+    background-color: #f0f4f8;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .give-kudos-container h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 30px;
+  }
+  
+  .kudos-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .kudos-form label {
+    font-size: 1.1rem;
+    color: #34495e;
+    margin-bottom: 5px;
+  }
+  
+  .kudos-form select,
+  .kudos-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .kudos-form select {
+    height: 40px;
+    background-color: #ffffff;
+  }
+  
+  .kudos-form textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  .kudos-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .kudos-btn:hover {
+    background-color: #c0392b;
+  }
+  
