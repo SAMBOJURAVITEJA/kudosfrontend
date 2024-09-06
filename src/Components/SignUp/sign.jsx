@@ -33,7 +33,8 @@ function Signup() {
     } catch (err) {
       setEmail("");
       setName("");
-      alert(err);
+      console.log(err)
+      alert("user already exist");
     }
   };
 
